@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>StudyQuest</title>
+  <link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+  <h2>StudyQuest</h2>
+  <p>Status: <span id="status">Idle</span></p>
+
+  <button id="start">Start</button>
+  <button id="stop">Stop</button>
+
+  <hr/>
+
+  <label>Mode</label>
+  <select id="mode">
+    <option value="exam">Exam</option>
+    <option value="deep">Deep Work</option>
+    <option value="chill">Chill</option>
+  </select>
+
+  <label>Distraction sites</label>
+  <textarea id="sites" placeholder="youtube.com, instagram.com"></textarea>
+
+  <label>Session goal</label>
+  <input id="goal" placeholder="Finish 2 pages"/>
+
+  <button id="save">Save</button>
+
+  <hr/>
+  <div id="summary"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
